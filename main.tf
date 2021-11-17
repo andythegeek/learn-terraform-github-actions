@@ -12,7 +12,7 @@ terraform {
   required_version = ">= 0.14"
 
   backend "remote" {
-    organization = "Tafa-Terrform-GHdemo"
+    organization = "Tafa-Terraform-GHdemo"
 
     workspaces {
       name = "gh-actions-demo"
